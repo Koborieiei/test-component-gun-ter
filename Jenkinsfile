@@ -14,6 +14,12 @@ pipeline {
             }
         }
 
+        stage('POST') {
+            steps {
+                echo 'Posting... Succeed'
+            }
+        }
+
     }
 
 }
