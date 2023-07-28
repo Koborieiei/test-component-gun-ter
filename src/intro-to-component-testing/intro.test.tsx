@@ -2,7 +2,7 @@ import { act, fireEvent, render, screen } from '@testing-library/react';
 import App from '../App';
 
 describe("App Component", () => {
-    it("should render react", () => {
+    it("should render Maria Anders as random name", () => {
         render(<App/>)
         jest.spyOn(Math, 'random').mockReturnValue(0);
         const increaseButton = screen.getByText(/Random Button/)
