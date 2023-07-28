@@ -14,13 +14,13 @@ const Row = styled.div`
 `
 
 const TableRow = styled.tr`
-  border: 1px solid #f9f9f9;
+  border: 1px solid ghostwhite;
   text-align: left;
   padding: 8px;
 `
 
 const TableHead = styled.th`
-  border: 1px solid #f9f9f9;
+  border: 1px solid black;
   width: 200px;
   text-align: left;
   padding: 8px;
