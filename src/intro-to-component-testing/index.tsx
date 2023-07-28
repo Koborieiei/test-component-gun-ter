@@ -85,12 +85,16 @@ export const IntroToComponentTesting = () => {
             Random name : {randomName === "" ? "Not Match" : randomName}
           </p>
           <table>
+            <thead>
             <TableRow>
               <TableHead>Company</TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Country</TableHead>
             </TableRow>
+            </thead>
+            <tbody>
             <TableRowWithDate/>
+            </tbody>
           </table>
 
         </Wrapper>
